@@ -1,0 +1,41 @@
+Color
+🌞 Light Mode
+* Background → Off-White #F9FAFB
+* Primary (Purple / Lavender) → #9B5DE5
+* Secondary (Teal / Aqua) → #2DD4BF
+* Text (Dark Slate) → #1E293B
+* Muted / Supportive Text → #6B7280
+* SOS / Alert Red → #EF4444
+* Success (Green for counseling confirmation, etc.) → #10B981
+
+🌙 Dark Mode
+* Background → Dark Slate #1E293B
+* Card / Section Backgrounds → Charcoal #334155
+* Primary (Lavender, brighter) → #A78BFA
+* Secondary (Teal, brighter) → #14B8A6
+* Text (White / Near White) → #F9FAFB
+* Muted / Supportive Text → #CBD5E1
+* SOS / Alert Red → #F87171 (slightly brighter for dark background)
+* Success Green → #34D399
+
+Pages
+
+#0. Landing Page
+#1. Home Page / Dashboard Page 
+#2. Anonymous Reporting System
+#3. Community Support Chatrooms
+#4. Counselors Connect
+#5. Resources Hub
+#6. Settings Page
+
+Fonts
+
+✅ Primary Font (Headings & Brand) - Poppins (Google Font)
+✅ Secondary Font (Body Text & Content) - Inter or Nunito (Google Fonts)
+
+1. Modern & Minimal (Recommended ✅)
+* Clean layouts, calm colors, soft shadows, rounded corners.
+* Focuses on clarity → people in distress can quickly navigate.
+* Professional → builds trust with NGOs, UN, and counselors.
+* Works well with Light & Dark Mode.
+👉 Best fit for SpeakUp.
