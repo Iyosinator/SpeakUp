@@ -29,7 +29,7 @@ export function HeroSection() {
           {/* Subtext */}
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Millions of women and children experience harassment and violence
-            every year — many go unreported. SpeakUp gives you a safe space to
+            every year many go unreported. SpeakUp gives you a safe space to
             report and get help.
           </p>
 

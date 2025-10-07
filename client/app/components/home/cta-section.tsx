@@ -24,7 +24,7 @@ export function CtaSection() {
                 className="group gap-2 rounded-full px-8 text-lg shadow-lg"
               >
                 <Link href="/dashboard">
-                  Go to Dashboard – Get Help Now
+                  Get Help Now
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>

@@ -4,45 +4,58 @@ import {
   Heart,
   MessageCircle,
   BookOpen,
+  Scale,
 } from "lucide-react";
 
 const features = [
   {
     icon: AlertTriangle,
     title: "Quick SOS Button",
-    description: "Immediate help in emergencies with one tap",
+    description: "Get immediate help in emergencies with one free tap.",
     color: "text-destructive",
     bgColor: "bg-destructive/10",
   },
   {
     icon: FileText,
     title: "Anonymous Reporting",
-    description: "File incidents safely without revealing your identity",
+    description: "File incidents safely and anonymously — completely free.",
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
   {
     icon: Heart,
     title: "Community Support",
-    description: "Connect with survivors and allies in a safe space",
+    description:
+      "Join a safe community of survivors and allies — all support is free.",
     color: "text-secondary",
     bgColor: "bg-secondary/10",
   },
   {
     icon: MessageCircle,
     title: "Counseling Support",
-    description: "Professional mental health assistance when you need it",
+    description:
+      "Get professional mental health assistance — 100% free of charge.",
     color: "text-success",
     bgColor: "bg-success/10",
   },
   {
     icon: BookOpen,
     title: "Resources Hub",
-    description: "Access to shelters, legal aid, and emergency hotlines",
+    description:
+      "Access free shelters, legal aid, and emergency hotlines anytime.",
+    color: "text-primary",
+    bgColor: "bg-primary/10",
+  },
+  {
+    icon: Scale,
+    title: "Legal Assistance",
+    description:
+      "Receive free legal guidance and connections to trusted organizations.",
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
 ];
+
 
 export function FeaturesSection() {
   return (
