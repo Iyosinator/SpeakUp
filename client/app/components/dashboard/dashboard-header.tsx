@@ -9,11 +9,13 @@ import { Badge } from "@/components/ui/badge";
 export function DashboardHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-13">
+      <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+        {/* Logo */}
         <Link
           href="/"
           className="flex items-center gap-2 transition-opacity hover:opacity-80"
         >
+          <Shield className="h-6 w-6 text-primary" />
           <span className="font-heading text-xl font-bold text-primary">
             SpeakUp
           </span>
@@ -31,6 +33,14 @@ export function DashboardHeader() {
 
           {/* Theme Toggle */}
           <ThemeToggle />
+
+          {/* Mini SOS Shortcut */}
+          <Button
+            size="sm"
+            className="rounded-full bg-destructive text-destructive-foreground hover:bg-destructive/90"
+          >
+            SOS
+          </Button>
         </div>
       </div>
     </header>
