@@ -10,6 +10,7 @@ import {
   AlertCircle,
   Menu,
   X,
+  Search,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -19,6 +20,7 @@ import { useState } from "react";
 const navItems = [
   { icon: Home, label: "Home", href: "/dashboard" },
   { icon: FileText, label: "File a Report", href: "/dashboard/report" },
+  { icon: Search, label: "Track Report", href: "/dashboard/track-report" }, // Added
   { icon: Users, label: "Community Support", href: "/dashboard/community" },
   {
     icon: MessageCircle,
@@ -26,9 +28,10 @@ const navItems = [
     href: "/dashboard/counseling",
   },
   { icon: BookOpen, label: "Resources Hub", href: "/dashboard/resources" },
-  { icon: Settings, label: "Settings", href: "/dashboard/settings" },
+
   { icon: AlertCircle, label: "SOS", href: "/dashboard/sos", highlight: true },
 ];
+
 
 export function DashboardSidebar() {
   const pathname = usePathname();

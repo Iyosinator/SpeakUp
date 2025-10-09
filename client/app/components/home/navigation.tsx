@@ -24,10 +24,10 @@ export function Navigation() {
 
         {/* Right Side - Theme Toggle & CTA */}
         <div className="flex items-center gap-4">
-          <ThemeToggle />
           <Button asChild size="sm" className="rounded-full">
             <Link href="/dashboard">Get Started</Link>
           </Button>
+          <ThemeToggle />
         </div>
       </div>
     </nav>

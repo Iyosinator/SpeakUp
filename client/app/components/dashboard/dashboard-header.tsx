@@ -34,13 +34,6 @@ export function DashboardHeader() {
           {/* Theme Toggle */}
           <ThemeToggle />
 
-          {/* Mini SOS Shortcut */}
-          <Button
-            size="sm"
-            className="rounded-full bg-destructive text-destructive-foreground hover:bg-destructive/90"
-          >
-            SOS
-          </Button>
         </div>
       </div>
     </header>
